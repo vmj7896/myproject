@@ -1,0 +1,19 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Header from './component/Header';
+import Details from './component/Details'
+
+//functional Component
+const App = () => {
+    return(
+        <div>
+            <Header/>
+            <h1>My React App Code</h1>
+            <h2>My Code</h2>
+            <hr/>
+            <Details/>
+        </div>
+    )
+}
+
+ReactDOM.render(<App/>,document.getElementById('root'));
